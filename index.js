@@ -385,7 +385,6 @@ AFRAME.registerShader('gif', {
    * @public
    */
   nextFrame () {
-    this.__clearCanvas()
     this.__draw()
 
     /* update next frame time */
