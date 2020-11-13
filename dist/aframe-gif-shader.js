@@ -504,7 +504,7 @@
 	   */
 	  __clearCanvas: function __clearCanvas() {
 	    this.__ctx.clearRect(0, 0, this.__width, this.__height);
-	    this.__texture.needsUpdate = true;
+	    
 	  },
 
 
